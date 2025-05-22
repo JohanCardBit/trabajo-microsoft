@@ -20,7 +20,7 @@ body {
     margin: 0px;
     padding: 0px;
     /* border: 3px solid blueviolet; */
-    
+
 }
 
 
@@ -39,7 +39,7 @@ body {
 }
 
 
-.box-uno img{
+.box-uno img {
     /* margin-top: -20px;
     margin-left: -160px; */
     margin-bottom: 5px;
@@ -50,7 +50,7 @@ body {
 
 }
 
-.box-uno h1{
+.box-uno h1 {
     margin-top: -50px;
     margin-left: 50px;
     margin-right: 227px;
@@ -58,10 +58,10 @@ body {
 
     font-size: 24px;
     font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
-    
-    }
 
-.box-uno input{
+}
+
+.box-uno input {
     width: 320px;
     padding: 14px 12px;
     font-size: 15px;
@@ -73,7 +73,7 @@ body {
 
 }
 
-.box-uno input{
+.box-uno input {
 
     border-bottom: 1px solid #3b3be7;
     align-items: center;
@@ -81,39 +81,41 @@ body {
     margin-right: 40px;
     padding: 0px;
     padding-bottom: 10px;
-    
-    
+
+
     /* text-align: left; */
 
     /* margin-bottom: 100px; */
 }
 
-.box-uno input:hover{
+.box-uno input:hover {
 
-        border-color: black;
+    border-color: black;
 
 }
 
 
-.box-uno p{
+.box-uno p {
     margin-top: 30px;
     margin-left: -95px;
     margin-right: 40px;
     font-size: 13px;
     font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
-    
+
 }
 
-a{
+a {
     color: #0067B8;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
+    color: gray;
+
 }
 
-.ados{
+.ados {
     margin-top: 10px;
     margin-left: -95px;
     margin-right: 40px;
@@ -122,11 +124,12 @@ a:hover{
     font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
 }
 
-.ados:hover{
+.ados:hover {
     text-decoration: underline;
+    color: gray;
 }
 
-.boton-siguiente{
+.boton-siguiente {
     display: flex;
     margin-left: 210px;
     margin-top: 30px;
@@ -136,5 +139,62 @@ a:hover{
     padding: 5px 20px;
     border-color: #0067B8;
     font-size: 15px;
+    cursor: pointer;
     font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+}
+
+.boton-siguiente:hover {
+
+    background-color: hsl(206, 95%, 32%);
+
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+    margin-right: 0px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 428px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+}
+
+.llavesita {
+    width: 35px;
+    /* height: 20px; */
+}
+
+.options:hover {
+
+    background-color: whitesmoke;
+}
+
+.terminos {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+    height: 27vh;
+    gap: 15px;
+    margin-right: 20px;
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+}
+
+.uso {
+    color: #000000;
+    font-size: 12px;
+}
+
+.usop {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
 }
